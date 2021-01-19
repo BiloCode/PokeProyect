@@ -1,0 +1,24 @@
+.sidebar-container {
+  --sidebar-width-alt : 90px;
+
+  width: var(--sidebar-width-alt);
+  height: 100vh;
+  background-color: var(--primary-color-light-a);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transition: .2s;
+
+  .routes-container {
+    margin-top: 6em;
+  }
+
+  .toggle-icon {
+    margin-top: 5em;
+  }
+
+  &.extended {
+    --sidebar-width-alt: 240px;
+  }
+}

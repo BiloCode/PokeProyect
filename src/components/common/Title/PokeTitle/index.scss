@@ -1,0 +1,19 @@
+.title-container {
+  display: flex;
+  align-items: center;
+
+  .icon , .text {
+    font-size: 2.5em;
+    color: #fff;
+  }
+
+  .icon {
+    line-height: 0;
+    margin-right: 5px;
+  }
+
+  .text {
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+  }
+}

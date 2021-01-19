@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-color: #20263B;
+  --secondary-color: #00D387;
+  --thirty-color: #F1053E;
+
+  --primary-color-light-a : #262E49;
+  --primary-color-light-b : #3C4871;
+  --primary-color-light-c : #5C6DA7;
+  --primary-color-light-d : #313957;
+
+  --thirty-color-light-a : #F12052;
+
+  --sidebar-width: 90px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}

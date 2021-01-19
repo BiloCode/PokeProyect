@@ -1,0 +1,54 @@
+.team-card-container {
+  --icon-width : 90px;
+
+  width: 340px;
+  height: 240px;
+  background-color: var(--primary-color-light-a);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .pokemon-icons {
+    display: grid;
+    grid-template-columns: repeat(3, var(--icon-width));
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 20px;
+  }
+
+  .information {
+    width: calc(calc(var(--icon-width) * 3) + 12px);
+    font-family: 'Raleway', sans-serif;
+
+    .team-title {
+      display: inline-block;
+      font-weight: 900;
+      font-size: 1.1em;
+      margin-bottom: 4px;
+      color: #fff;
+    }
+
+    .user , .date {
+      font-size: .8em;
+    }
+
+    .user-and-date-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .user {
+      color: var(--primary-color-light-c);
+    }
+
+    .date {
+      font-weight: bold;
+      color: var(--secondary-color);
+    }
+
+  }
+
+}

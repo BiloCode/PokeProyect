@@ -1,0 +1,17 @@
+.global-button-container {
+  width: 220px;
+  padding: .5em 1em;
+  font-weight: 800;
+  border: none;
+  color: #fff;
+  background-color: var(--thirty-color);
+  font-size: 1em;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: var(--thirty-color-light-a);
+  }
+}

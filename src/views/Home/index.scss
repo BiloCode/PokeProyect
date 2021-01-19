@@ -1,0 +1,5 @@
+.team-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 12px;
+}

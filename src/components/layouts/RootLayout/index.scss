@@ -1,0 +1,14 @@
+main.root-layout {
+  width: 100vw;
+  height: 100vh;
+
+  .child-container {
+    height: 100%;
+    overflow: hidden;
+    padding-left: var(--sidebar-width);
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
